@@ -1,0 +1,206 @@
+body{
+    text-align: center;
+    font-family: Ubuntu;
+    padding-top: 56px;
+    overflow-x: hidden;
+
+}
+section{
+    //padding-top: 50px;
+    //padding-bottom: 50px;
+}
+.intro{
+    //padding-top: 15vh ;
+    text-align: center;
+    color : white;
+    min-height: 100vh;
+    text-shadow: 2px 2px 2px  #000;
+}
+
+.title{
+    font-size: 100px;
+}
+.projets{
+    color : white;
+    //background-image: url(../img/bridge.jpeg);
+    //background-size: cover;
+    //background-attachment: fixed;
+    //min-height: 100vh;
+    background-color: #333;
+    text-shadow: 2px 2px 2px  #000;
+
+
+
+}
+.aptitudes{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    min-height: 100vh;
+    line-height: 200%;
+}
+
+.tableau-synthese{
+  padding-top: 15vh;
+    min-height: 100vh;
+    z-index: 2;
+    background-color: white;
+}
+.porteF-title{
+  text-align: center;
+  padding: 40vh 0;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.miniature{
+    height: auto;
+    min-width: 20vw;
+    max-width: 40vw;
+}
+.title-veille{
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 25% 0;
+  height: 100%;
+  width: 100%;
+}
+.veille-technologique{
+    min-height: 100vh;
+    margin-top: -100px;
+    z-index: -2;
+}
+.colR{
+  height: 100%;
+  padding: 5px;
+  background-image: url(../img/veille.jpg);
+  background-attachment:  fixed;
+  background-size: cover;
+  z-index: 0;
+
+}
+
+
+footer{
+    padding: 50px;
+    background-color: #333;
+    color : #eee;
+}
+td{
+    border-left: 1px solid black;
+    text-align: left;
+    padding: 20px 15px;
+}
+th{
+    text-align: right;
+    padding: 15px;
+    min-width: 25%;
+    font-weight: 400;
+}
+
+.btn-perso{
+  margin : 10px 0;
+  border: 1px solid #00C07F !important;
+  color: #00C07F ;
+  background-color:  transparent;
+}
+.btn-perso:hover{
+  transition-property: background-color, color 0.1s ease-in 0s;
+  background-color: #00C07F;
+  color: white;
+}
+
+div.article-info{
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+div.article-body{
+  text-align: left;
+}
+.code-usage{
+  background-color: #333;
+  color : white;
+  border-radius: 5px;
+}
+.text{
+  display: inline-block;
+  letter-spacing: -15px;
+
+}
+div.end{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/end.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 20%;
+}
+
+
+
+.timeline{
+ height: 3000%;
+ text-shadow: none;
+ padding-top:  100px;
+ padding-bottom: 100px;
+}
+.timeline-center{
+  border-left: 3px solid #CD5554;
+  height : 100%;
+  width : 1vw;
+  position: absolute;
+  left : 35vw;
+
+
+
+}
+.timeline-left{
+  clear:  right;
+  width: 33vw;
+}
+.timeline-right{
+  float: right;
+  width: 62vw;
+}
+.timeline-right, .timeline-left{
+  padding: 5px;
+  margin: 5px;
+}
+.timeline-right-header{
+  float: left;
+  background-color: #00C07F;
+  color: #313D4B;
+  padding: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  width: 50vw;
+}
+.timeline-right-content{
+  float : left;
+  width : 50vw;
+  background-color : white;
+  color : #313D4B;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+h1.label-perso{
+  padding: 10px 50px;
+}
+h2.label-perso{
+  padding: 10px 20px;
+}
+.label-perso{
+  max-width: 30vw;
+  margin : 10px 0;
+  color: #313D4B ;
+  background-color: #00C07F;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  text-shadow: none;
+  float: right;
+}
