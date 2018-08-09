@@ -2,8 +2,6 @@ applications:
 - path: .
   memory: 64M
   instances: 1
-  domain: mybluemix.net
-  name: portefeuille-aygalic
-  host: portefeuille-aygalic
-  disk_quota: 1024M
+  name: premier-site
+  route: premier-site-${random-word}.mybluemix.net
   buildpack: php_buildpack
