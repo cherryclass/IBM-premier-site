@@ -1,7 +1,6 @@
 applications:
-- path: .
+- name: premier-site
   memory: 256M
   instances: 1
-  name: premier-site
   route: premier-site-${random-word}
   buildpack: php_buildpack
