@@ -2,6 +2,5 @@ applications:
 - name: premier-site
   memory: 256M
   instances: 1
-  routes: 
-    - route: premier-site-${random-word}.eu-de.mybluemix.net
+  random-route: true
   buildpack: php_buildpack
